@@ -1,0 +1,13 @@
+require 'pry'
+require 'bundler'
+Bundler.require
+
+require_relative '../config/environment'
+
+
+#Dog.create(name: "Roscoe", breed: "Pitbull")
+
+
+binding.pry
+0
+
